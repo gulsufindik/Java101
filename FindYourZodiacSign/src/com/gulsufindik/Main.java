@@ -49,7 +49,7 @@ public class Main {
 		} else if ((month == 5 && day >= 22) || (month == 6 && day <= 22)) {
 			horoscope = "Gemini";
 		} else if ((month == 6 && day >= 23) || (month == 7 && day <= 22)) {
-			horoscope = "Yengeç";
+			horoscope = "Cancer";
 		} else if ((month == 7 && day >= 23) || (month == 8 && day <= 22)) {
 			horoscope = "Leo";
 		} else if ((month == 8 && day >= 23) || (month == 9 && day <= 22)) {
