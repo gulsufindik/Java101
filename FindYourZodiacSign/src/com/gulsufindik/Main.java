@@ -7,29 +7,29 @@ public class Main {
 	public static void main(String[] args) {
 
 		/*
-		 * Aries: 21 Mart - 20 Nisan
+		 * Aries: 21 Mar - 20 Apr
 		 * 
-		 * Taurus: 21 Nisan - 21 Mayıs
+		 * Taurus: 21 Apr - 21 May
 		 * 
-		 * Gemini: 22 Mayıs - 22 Haziran
+		 * Gemini: 22 May - 22 Jun
 		 * 
-		 * Cancer: 23 Haziran - 22 Temmuz
+		 * Cancer: 23 Jun - 22 Jul
 		 * 
-		 * Leo: 23 Temmuz - 22 Ağustos
+		 * Leo: 23 Jul - 22 Aug
 		 * 
-		 * Virgo: 23 Ağustos - 22 Eylül
+		 * Virgo: 23 Aug - 22 Sep
 		 * 
-		 * Libra: 23 Eylül - 22 Ekim
+		 * Libra: 23 Sep - 22 Oct
 		 * 
-		 * Scorpio: 23 Ekim - 21 Kasım
+		 * Scorpio: 23 Oct - 21 Nov
 		 * 
-		 * Sagittarius: 22 Kasım - 21 Aralık
+		 * Sagittarius: 22 Nov - 21 Dec
 		 * 
-		 * Capricorn: 22 Aralık - 21 Ocak
+		 * Capricorn: 22 Dec - 21 Ocak
 		 * 
-		 * Aquarius: 22 Ocak - 19 Şubat
+		 * Aquarius: 22 Jan - 19 Feb
 		 * 
-		 * Pisces: 20 Şubat - 20 Mart
+		 * Pisces: 20 Feb - 20 Mar
 		 */
 
 		Scanner scanner = new Scanner(System.in);
