@@ -30,7 +30,6 @@ public class Main {
 			} else if (age >= 65) {
 				discountRate = 0.30;
 			}
-
 			if (travelType == 2) {
 				discountRate += 0.20;
 			}
@@ -41,7 +40,6 @@ public class Main {
 		} else {
 			System.out.println("You Entered Wrong Data!");
 		}
-
 		input.close();
 	}
 
