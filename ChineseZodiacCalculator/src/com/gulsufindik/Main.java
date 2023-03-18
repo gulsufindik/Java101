@@ -14,6 +14,7 @@ public class Main {
 		
 		String[] zodiacs = { "Monkey", "Cockerel", "Dog", "Pig", "Mouse", "Ox", "Tiger", "Rabbit", "Dragon", "Snake",
 				"Horse", "Sheep" };
+		
 		String zodiac = zodiacs[zodiacIndex];
 		System.out.println("Chinese Zodiac Sign: " + zodiac);
 	}
