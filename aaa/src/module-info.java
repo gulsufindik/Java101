@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author su
- *
- */
-module aaa {
-}
