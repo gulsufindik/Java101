@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import java.util.Scanner;
 
-public class GcdLcmWhile {
+public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num1, num2, gcd = 1, lcm;
