@@ -3,17 +3,22 @@ package com.gulsufindik;
 import java.util.Scanner;
 
 public class Main {
-	public static void main(String[] args) {
-		int i, j, k;
-		for (i = 10; 0 < i; i--) {
-			for (j = i; j < 10; j++) {
-				System.out.print(" ");
-			}
-			for (k = 1; k <= i; k++) {
-				System.out.print("*");
-				System.out.print(" ");
-			}
-			System.out.println(" ");
-		}
-	}
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the number of digits : ");
+        int n = scanner.nextInt();
+
+        for (int i = n; i >= 1; i--) {
+            for (int j = i; j < n; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= 2 * i - 1; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        scanner.close();
+    }
 }
