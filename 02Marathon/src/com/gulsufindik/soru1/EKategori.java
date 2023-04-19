@@ -1,6 +1,6 @@
 package com.gulsufindik.soru1;
 
-public enum EKitapTur {
+public enum EKategori {
 	ROMAN, 
 	MACERA, 
 	EGITIM, 
@@ -9,9 +9,9 @@ public enum EKitapTur {
 
 	private String kitapAdi;
 	private String yazarAdi;
-	private EKitapTur kitapTur;
+	private EKategori kitapTur;
 
-	public void Kitap(String kitapAdi, String yazarAdi, EKitapTur kitapTur) {
+	public void Kitap(String kitapAdi, String yazarAdi, EKategori kitapTur) {
 		this.kitapAdi = kitapAdi;
 		this.yazarAdi = yazarAdi;
 		this.kitapTur = kitapTur;
