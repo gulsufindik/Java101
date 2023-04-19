@@ -1,30 +1,26 @@
 package com.gulsufindik.soru1;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
 public class Kitap {
-    private String kitapAdi;
+    private String adi;
     private String yazar;
-    private String yayinevi;
-    private int kitapID;
+    private int id;
+    private EKategori kategori;
     private boolean kiradaMi;
 
-    public Kitap(String kitapAdi, String yazar, String yayinevi, int kitapID) {
-        this.kitapAdi = kitapAdi;
+    public Kitap(String adi, String yazar, int id, EKategori kategori) {
+        this.adi = adi;
         this.yazar = yazar;
-        this.yayinevi = yayinevi;
-        this.kitapID = kitapID;
+        this.id = id;
+        this.kategori = kategori;
         this.kiradaMi = false;
     }
 
-    public String getKitapAdi() {
-        return kitapAdi;
+    public String getAdi() {
+        return adi;
     }
 
-    public void setKitapAdi(String kitapAdi) {
-        this.kitapAdi = kitapAdi;
+    public void setAdi(String adi) {
+        this.adi = adi;
     }
 
     public String getYazar() {
@@ -35,20 +31,20 @@ public class Kitap {
         this.yazar = yazar;
     }
 
-    public String getYayinevi() {
-        return yayinevi;
+    public int getId() {
+        return id;
     }
 
-    public void setYayinevi(String yayinevi) {
-        this.yayinevi = yayinevi;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public int getKitapID() {
-        return kitapID;
+    public EKategori getKategori() {
+        return kategori;
     }
 
-    public void setKitapID(int kitapID) {
-        this.kitapID = kitapID;
+    public void setKategori(EKategori kategori) {
+        this.kategori = kategori;
     }
 
     public boolean isKiradaMi() {
