@@ -11,7 +11,6 @@ public class Kasiyer {
         this.kasiyerID = kasiyerID;
     }
 
-    // Getter ve setter metotları
     public String getAd() {
         return ad;
     }
