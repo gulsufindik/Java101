@@ -2,11 +2,11 @@ package Exam02;
 
 public class Personel {
 	private String ad;
-    private int yaş;
+    private int yas;
 
-    public Personel(String ad, int yaş) {
+    public Personel(String ad, int yas) {
         this.ad = ad;
-        this.yaş = yaş;
+        this.yas = yas;
     }
 
     public String getAd() {
@@ -17,12 +17,12 @@ public class Personel {
         this.ad = ad;
     }
 
-    public int getYaş() {
-        return yaş;
+    public int getYas() {
+        return yas;
     }
 
-    public void setYaş(int yaş) {
-        this.yaş = yaş;
+    public void setYas(int yas) {
+        this.yas = yas;
     }
 }
 
