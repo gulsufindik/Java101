@@ -1,18 +1,30 @@
 package Exam01;
 
 public class InsanKaynaklariPersoneli extends Personel {
-    private String departman;
+	private int sicilNo;
+	private int maas;
 
-    public InsanKaynaklariPersoneli(String ad, String soyad, String tcNo, String telefon, String adres, String departman) {
-        super(ad, soyad, tcNo, telefon, adres);
-        this.departman = departman;
-    }
+	public InsanKaynaklariPersoneli(int personelID, String ad, String soyad, int tcNo, int telefon, String adres,
+			int sicilNo, int maas) {
+		super(personelID, ad, soyad, tcNo, telefon, adres);
+		this.sicilNo = sicilNo;
+		this.maas = maas;
+	}
 
-    public String getDepartman() {
-        return departman;
-    }
+	public int getSicilNo() {
+		return sicilNo;
+	}
 
-    public void setDepartman(String departman) {
-        this.departman = departman;
-    }
+	public void setSicilNo(int sicilNo) {
+		this.sicilNo = sicilNo;
+	}
+
+	public int getMaas() {
+		return maas;
+	}
+
+	public void setMaas(int maas) {
+		this.maas = maas;
+	}
+
 }

@@ -1,74 +1,69 @@
 package Exam01;
 
-import java.util.List;
-import java.util.ArrayList;
-
 public abstract class Personel {
-    private String ad;
-    private String soyad;
-    private String tcNo;
-    private String telefon;
-    private String adres;
-    private List<Departman> departmanlar;
+	private int PersonelID;
+	private String ad;
+	private String soyad;
+	private int tcNo;
+	private int telefon;
+	private String adres;
 
-    public Personel(String ad, String soyad, String tcNo, String telefon, String adres) {
-        this.ad = ad;
-        this.soyad = soyad;
-        this.tcNo = tcNo;
-        this.telefon = telefon;
-        this.adres = adres;
-        departmanlar = new ArrayList<>();
-    }
+	public Personel(int personelID, String ad, String soyad, int tcNo, int telefon, String adres) {
+		super();
+		PersonelID = personelID;
+		this.ad = ad;
+		this.soyad = soyad;
+		this.tcNo = tcNo;
+		this.telefon = telefon;
+		this.adres = adres;
+	}
 
-    public String getAd() {
-        return ad;
-    }
+	public int getPersonelID() {
+		return PersonelID;
+	}
 
-    public void setAd(String ad) {
-        this.ad = ad;
-    }
+	public void setPersonelID(int personelID) {
+		PersonelID = personelID;
+	}
 
-    public String getSoyad() {
-        return soyad;
-    }
+	public String getAd() {
+		return ad;
+	}
 
-    public void setSoyad(String soyad) {
-        this.soyad = soyad;
-    }
+	public void setAd(String ad) {
+		this.ad = ad;
+	}
 
-    public String getTcNo() {
-        return tcNo;
-    }
+	public String getSoyad() {
+		return soyad;
+	}
 
-    public void setTcNo(String tcNo) {
-        this.tcNo = tcNo;
-    }
+	public void setSoyad(String soyad) {
+		this.soyad = soyad;
+	}
 
-    public String getTelefon() {
-        return telefon;
-    }
+	public int getTcNo() {
+		return tcNo;
+	}
 
-    public void setTelefon(String telefon) {
-        this.telefon = telefon;
-    }
+	public void setTcNo(int tcNo) {
+		this.tcNo = tcNo;
+	}
 
-    public String getAdres() {
-        return adres;
-    }
+	public int getTelefon() {
+		return telefon;
+	}
 
-    public void setAdres(String adres) {
-        this.adres = adres;
-    }
-	
-	public List<Departman> getDepartmanlar() {
-        return departmanlar;
-    }
+	public void setTelefon(int telefon) {
+		this.telefon = telefon;
+	}
 
-    public void setDepartmanlar(List<Departman> departmanlar) {
-        this.departmanlar = departmanlar;
-    }
+	public String getAdres() {
+		return adres;
+	}
 
-    public void departmanEkle(Departman departman) {
-        departmanlar.add(departman);
-    }
+	public void setAdres(String adres) {
+		this.adres = adres;
+	}
+
 }

@@ -1,19 +1,30 @@
 package Exam01;
 
-public class GenelMudur extends Personel {
-	private String şirket;
+public class GenelMudur extends Mudur {
+	private String sirket;
+	private int maas;
 
-	public GenelMudur(String ad, String soyad, String tcNo, String telefon, String adres, String şirket) {
-		super(ad, soyad, tcNo, telefon, adres);
-		this.şirket = şirket;
+	public GenelMudur(int personelID, String ad, String soyad, int tcNo, int telefon, String adres, String departman,
+			int maas, String sirket, int maas2) {
+		super(personelID, ad, soyad, tcNo, telefon, adres, departman, maas);
+		this.sirket = sirket;
+		maas = maas2;
 	}
 
-	public String getŞirket() {
-		return şirket;
+	public String getSirket() {
+		return sirket;
 	}
 
-	public void setŞirket(String şirket) {
-		this.şirket = şirket;
+	public void setSirket(String sirket) {
+		this.sirket = sirket;
+	}
+
+	public int getMaas() {
+		return maas;
+	}
+
+	public void setMaas(int maas) {
+		this.maas = maas;
 	}
 
 }

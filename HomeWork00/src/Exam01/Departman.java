@@ -2,11 +2,14 @@ package Exam01;
 
 public class Departman {
 	private String ad;
-	private String mudur;
+	private String aciklama;
+	private String lokasyon;
 
-	public Departman(String ad, String mudur) {
+	public Departman(String ad, String aciklama, String lokasyon) {
+		super();
 		this.ad = ad;
-		this.mudur = mudur;
+		this.aciklama = aciklama;
+		this.lokasyon = lokasyon;
 	}
 
 	public String getAd() {
@@ -17,12 +20,20 @@ public class Departman {
 		this.ad = ad;
 	}
 
-	public String getMudur() {
-		return mudur;
+	public String getAciklama() {
+		return aciklama;
 	}
 
-	public void setMudur(String mudur) {
-		this.mudur = mudur;
+	public void setAciklama(String aciklama) {
+		this.aciklama = aciklama;
+	}
+
+	public String getLokasyon() {
+		return lokasyon;
+	}
+
+	public void setLokasyon(String lokasyon) {
+		this.lokasyon = lokasyon;
 	}
 
 }

@@ -2,10 +2,13 @@ package Exam01;
 
 public class Mudur extends Personel {
 	private String departman;
+	private int maas;
 
-	public Mudur(String ad, String soyad, String tcNo, String telefon, String adres, String departman) {
-		super(ad, soyad, tcNo, telefon, adres);
+	public Mudur(int personelID, String ad, String soyad, int tcNo, int telefon, String adres, String departman,
+			int maas) {
+		super(personelID, ad, soyad, tcNo, telefon, adres);
 		this.departman = departman;
+		this.maas = maas;
 	}
 
 	public String getDepartman() {
@@ -14,6 +17,14 @@ public class Mudur extends Personel {
 
 	public void setDepartman(String departman) {
 		this.departman = departman;
+	}
+
+	public int getMaas() {
+		return maas;
+	}
+
+	public void setMaas(int maas) {
+		this.maas = maas;
 	}
 
 }

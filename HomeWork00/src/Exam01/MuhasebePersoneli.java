@@ -1,18 +1,30 @@
 package Exam01;
 
 public class MuhasebePersoneli extends Personel {
-	private String unvan;
+	private String vergiNo;
+	private int maas;
 
-	public MuhasebePersoneli(String ad, String soyad, String tcNo, String telefon, String adres, String unvan) {
-		super(ad, soyad, tcNo, telefon, adres);
-		this.unvan = unvan;
+	public MuhasebePersoneli(int personelID, String ad, String soyad, int tcNo, int telefon, String adres,
+			String vergiNo, int maas) {
+		super(personelID, ad, soyad, tcNo, telefon, adres);
+		this.vergiNo = vergiNo;
+		this.maas = maas;
 	}
 
-	public String getUnvan() {
-		return unvan;
+	public String getVergiNo() {
+		return vergiNo;
 	}
 
-	public void setUnvan(String unvan) {
-		this.unvan = unvan;
+	public void setVergiNo(String vergiNo) {
+		this.vergiNo = vergiNo;
 	}
+
+	public int getMaas() {
+		return maas;
+	}
+
+	public void setMaas(int maas) {
+		this.maas = maas;
+	}
+
 }

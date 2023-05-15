@@ -1,23 +1,30 @@
 package Exam01;
 
-public class Hizmetli extends Personel implements Calisabilir {
-    private String temizlikGorevi;
+public class Hizmetli extends Personel {
+	private String departman;
+	private int maas;
 
-    public Hizmetli(String ad, String soyad, String tcNo, String telefon, String adres, String temizlikGorevi) {
-        super(ad, soyad, tcNo, telefon, adres);
-        this.temizlikGorevi = temizlikGorevi;
-    }
-
-    public String getTemizlikGorevi() {
-        return temizlikGorevi;
-    }
-
-    public void setTemizlikGorevi(String temizlikGorevi) {
-        this.temizlikGorevi = temizlikGorevi;
-    }
-
-	@Override
-	public void calis() {
-		
+	public Hizmetli(int personelID, String ad, String soyad, int tcNo, int telefon, String adres, String departman,
+			int maas) {
+		super(personelID, ad, soyad, tcNo, telefon, adres);
+		this.departman = departman;
+		this.maas = maas;
 	}
+
+	public String getDepartman() {
+		return departman;
+	}
+
+	public void setDepartman(String departman) {
+		this.departman = departman;
+	}
+
+	public int getMaas() {
+		return maas;
+	}
+
+	public void setMaas(int maas) {
+		this.maas = maas;
+	}
+
 }
